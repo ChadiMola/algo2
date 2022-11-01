@@ -1,6 +1,6 @@
 ALGORITHM sum2
 VAR
-    n,x,i,j: INTEGER;
+    n,x,i,j,count: INTEGER;
     Set1: ARRAY_OF INTEGER[n];
     Set2:ARRAY_OF INTEGER[x];
     htab : HASH_TABLE<INTEGER,INTEGER>;
